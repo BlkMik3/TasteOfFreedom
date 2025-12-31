@@ -1,0 +1,10 @@
+Logo Colors:
+    -   Font style - 
+    •   Background (light cream) - #fff1cd
+        -   Light Orange - #fcf1dc
+        -   White for scoops - #fdfaf3
+    •   Text and outline - Dark gray brown - #161412
+    •   Stars and flag Blue - #425be6
+    •   Stars and stripes Red - #cf2019
+
+Cannot get git to work

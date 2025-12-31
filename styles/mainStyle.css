@@ -1,0 +1,71 @@
+body {
+    background-color: #fcf1dc;
+    color: #161412;
+}
+
+h1 {
+    max-width: auto;
+    text-align: center;
+}
+
+.u {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: auto;
+}
+
+h2, h3 {
+    text-decoration-color: #cf2019;
+    color: #cf2019;
+}
+
+.bigTitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* About Us Container */
+.businessDesc {
+    margin-top: 10px;
+    display: flex;  /* puts the children in a row */
+    align-items: flex-start; /* aligns the top edges */
+    gap: 1.5rem;  /* space between text and image */
+    text-align: left;   
+    text-wrap: wrap;
+}
+/* Text colum */
+.businessDesc-text {
+    font-size: 24px;
+    flex: 1;    /* takes the remaining space */
+    max-width: 50%;
+    min-width: 0;   /* allows flex item to shrink to prevent overflow */
+    overflow-wrap: break-word; /* wrap long words instead of overflowing */
+    word-break: break-word; /* tells the browser to break long words so they dont stick out of the contianer */
+    margin: 0;
+}
+.businessDesc-text h2 {
+    margin-top: 10%;
+    margin-bottom: 0.5rem;
+}
+/* Image column */
+.businessDesc-img {
+    width: 500px;   /* control image size */
+    height: auto;   /* keep aspect ratio */
+    max-width: 100%;    /* stays responsive */
+    align-self: flex-start; /* keeps img visually to the right */
+    margin-top: -10px;
+}
+
+.flavorTitles {
+    margin-top: .5rem;
+    text-align: left;
+    text-decoration-color: #425be6;
+    color: #425be6;
+}
+
+.flavorDesc {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    max-width: 30%;
+}
+
